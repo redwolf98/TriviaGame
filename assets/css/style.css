@@ -1,0 +1,71 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.gameBox{
+    
+    background-color: #a67c00;
+    width:100%;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.title{
+    width:100%;
+}
+
+.gameSpace{
+    width:100%;
+    height:550px;
+    text-align: center;
+}
+
+.possibleAnswer{
+    background-color:#fff484;
+    height: 50px;
+    width: 40%;
+    border: 2px solid red;
+    font-size: 30px;
+    padding-top:3px;
+    font-weight: bold;
+    margin:15px;
+}
+
+
+.possibleAnswerBox:hover > .possibleAnswer:not(:hover){
+    opacity:0.5;
+}
+
+.possibleAnswer:hover{
+    transform: scale(1.1);
+    border: 2px solid blue;
+}
+
+
+
+.startButton{
+    background-color:#fff484;
+    height: 50px;
+    width: 50%;
+    border: 2px solid red;
+    font-size: 30px;
+    padding-top:3px;
+    font-weight: bold;
+    margin-top:250px;
+}
+
+.startButton:hover{
+    transform: scale(1.1);
+    border: 2px solid blue;
+}
+
+
+.timer{
+    font-weight: bold;
+    font-size:30px;
+}
+.question{
+    font-weight: bold;
+    font-size:30px;
+}
+
