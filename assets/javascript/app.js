@@ -59,6 +59,7 @@ function restartGame(){
     incorrectCount = 0;
     missedCount = 0;
     currentQuestionIndex = 0
+    seconds = 20;
     getNextQuestion();
     loadQuestion();
 }
@@ -155,7 +156,7 @@ function loadAnswer(selectedAnswer){
             log("loaded results");
             loadResults();
         }
-    },2000);
+    },5000);
 
 }
 
