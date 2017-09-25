@@ -1,11 +1,28 @@
 body {
     background-image: url("../images/background.jpg");
+    height:95%;
 }
 
-.gameBox{
-    
+html{
+    height:100%;
+}
+.imageSpace{
+    max-height:200px;
+}
+
+.userResult{
+    font-size:50px;
+    font-weight: bolder;
+}
+
+.answerSpace{
+    font-size:30px;
+
+    font-weight: bold;
+}
+
+.container{
     background-color: #a67c00;
-    width:100%;
     margin-top:15px;
     margin-bottom:15px;
 }
@@ -16,8 +33,11 @@ body {
 
 .gameSpace{
     width:100%;
-    height:550px;
     text-align: center;
+}
+
+.gameSpace p{
+    font-size:30px;
 }
 
 .possibleAnswer{
@@ -30,6 +50,24 @@ body {
     font-weight: bold;
     margin:15px;
 }
+
+.resetButton {
+    background-color:#fff484;
+    height: 50px;
+    width: 40%;
+    border: 2px solid red;
+    font-size: 30px;
+    padding-top:3px;
+    font-weight: bold;
+    margin:auto;
+  
+}
+
+.resetButton:hover{
+    transform: scale(1.1);
+    border: 2px solid blue;
+}
+
 
 
 .possibleAnswerBox:hover > .possibleAnswer:not(:hover){
@@ -69,3 +107,6 @@ body {
     font-size:30px;
 }
 
+html body .container{
+    height:100%;
+}
